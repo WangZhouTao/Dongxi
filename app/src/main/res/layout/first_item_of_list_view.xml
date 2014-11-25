@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/find_new_thing_list_first_item_first_image"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_gravity="left|bottom"
+                android:background="#77ffffff"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/find_new_thing_list_first_item_first_text"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/find_new_thing_list_first_item_second_image"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_gravity="left|bottom"
+                android:background="#77ffffff"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/find_new_thing_list_first_item_second_text"/>
+
+        </FrameLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/find_new_thing_list_first_item_third_image"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_gravity="left|bottom"
+                android:background="#77ffffff"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/find_new_thing_list_first_item_third_text"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/find_new_thing_list_first_item_forth_image"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_gravity="left|bottom"
+                android:background="#77ffffff"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/find_new_thing_list_first_item_forth_text"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>

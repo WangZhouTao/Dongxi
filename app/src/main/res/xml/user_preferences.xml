@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="图片显示"
+        android:summary="移动网络下显示低质量图片"
+        android:key="show_image"
+        android:defaultValue="true"/>
+    <CheckBoxPreference
+        android:title="接收推送信息"
+        android:key="accept_rss"
+        android:defaultValue="true"/>
+    <Preference
+        android:title="清空缓存"
+        android:key="clear_cache"/>
+    <Preference
+        android:title="检查更新"
+        android:summary="当前客户端版本 v1.1.6"
+        android:key="check_for_update"/>
+    <Preference
+        android:title="意见反馈"
+        android:key="feedback">
+        <intent
+            android:action=".activities.feedback"/>
+        </Preference>
+    <Preference
+        android:title="推荐应用"
+        android:key="app_rc"/>
+    <Preference
+        android:title="关于东西"
+        android:key="about"/>
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">东西</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_or_signup">一键注册|登陆</string>
+    <string name="dose_not_login">你还没登陆哟</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="profile_hint">豆瓣注册邮箱/手机号</string>
+    <string name="screct_hint">密码</string>
+    <string name="login">登录</string>
+    <string name="weibo_login">微博登录</string>
+    <string name="weixin_login">微信登录</string>
+
+
+    <integer-array name="google_colors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </integer-array>
+
+</resources>
